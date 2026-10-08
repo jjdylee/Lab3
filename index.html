@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page-layout">
+        <header class="header">
+            <h1>My Study Dashboard</h1>
+        </header>
+
+        <nav class="nav">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#card1">Overview</a></li>
+                <li><a href="#card2">Course Notes</a></li>
+                <li><a href="#card3">Practice</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <h2>Main Content</h2>
+
+            <div class="card-grid">
+                <article class="card card-featured" id="card1">
+                    <h3>Card 1: Overview</h3>
+                    <p>This week I am learning how to create page layouts with CSS Grid.</p>
+                </article>
+
+                <article class="card" id="card2">
+                    <h3>Card 2: Course Notes</h3>
+                    <p>Named grid areas organize the header, navigation, main content, and footer.</p>
+                </article>
+
+                <article class="card" id="card3">
+                    <h3>Card 3: Practice</h3>
+                    <p>Grid lines allow the first card to span both columns on larger screens.</p>
+                </article>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>CCT360 - CSS Grid Layout Practice</p>
+        </footer>
+    </div>
+</body>
+</html>
